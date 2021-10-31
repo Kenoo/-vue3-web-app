@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -13,6 +13,9 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
+    "vite": "^2.6.13",
+    "vite-plugin-style-import": "^1.2.1",
+    "@vitejs/plugin-vue": "^1.9.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
